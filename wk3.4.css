@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient(90deg, cyan, #FFB7C3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header, 
+form {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+/* li {
+    justify-content: center ;
+    display: flex;
+} */
+
+form input,
+form button {
+    border:none;
+    background: white;
+    font-size: large;
+    padding: 0.5rem;
+} 
+
+form button{
+    color:cyan;
+    background: black;
+}
+
+form button:hover{
+    color:white;
+    background:cyan;
+}
+
+.todo-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.todo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.todo-List {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.complete-btn,
+.trash-btn {
+    color: white;
+    border: none;
+    background: #97DB4F;
+    padding:5px;
+}
+
+.trash-btn {
+    background: magenta;
+}
+
+.todo-item{
+    padding: 15px;
+}
+
+.fa-trash,
+.fa-check {
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+}
